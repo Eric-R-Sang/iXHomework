@@ -1,3 +1,4 @@
+// Eric's implementation
 function fib(n) {
     let curr = 1;
     let prev = 0;
