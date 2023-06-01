@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guesser</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-dark">
+
+  <div class="container my-5">
+    <div class="card p-3 pb-5" style="background-color: aliceblue";>
+      <h1 class="text-center">Badly Explained Movies</h1>
+
+      <hr />
+
+      <div class="text-center">
+        <div id="movie-line" class=""></div>
+      </div>
+
+      <hr />
+
+      <div class="input-group my-3">
+        <input id="input" type="text" class="form-control"
+          placeholder="Enter guess here">
+      </div>
+
+      <button id="button1" class="btn btn-primary" type="button">
+        Submit
+      </button>
+
+      <hr />
+
+      <button id="button2" class="btn btn-outline-secondary" type="button">
+        Show Hint
+      </button>
+
+      <div id="output" class=""></div>
+
+      <div id="hint" class="m-4 text-center"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>
