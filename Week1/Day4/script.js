@@ -5,6 +5,7 @@ const output = document.getElementById('output');
 const quote = document.getElementById('movie-line');
 const hintPart = document.getElementById('hint');
 const maxGuesses = 3;
+
 const movies = [
   {title: 'Harry Potter', explanation: 'This movie is about a dude with a stick...', hint: 'It\'s Magic'},
   {title: 'Just Go With It', explanation: 'This movie is about people who go on holiday...', hint: 'Adam, Drew and Jennifer'},
@@ -42,7 +43,7 @@ submitButton.addEventListener('click', (e) => {
   } else if (guessed == false && guessNumber >= maxGuesses) {
     elem1.classList.add('alert-danger');
     elem1.innerHTML = 'No it was ' + randomMovie;
-    alert('Maximum guesses reached. Click OK to restart the game');
+    alert('Maximum guesses reached. The correct answer was ' + randomMovie + '. Click OK to restart the game');
     window.location.reload();
   }
   else {
