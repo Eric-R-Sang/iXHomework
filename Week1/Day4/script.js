@@ -19,10 +19,10 @@ const movies = [
   {title: 'The Lord Of The Rings', explanation: 'In this movie some small guys go for a walk...', hint: 'You will not vacate past this exact position'}
  ]
 
- randomNum = Math.round(Math.random() * 10);
- randomMovie = movies[randomNum].title;
- explanation = movies[randomNum].explanation;
- hint = movies[randomNum].hint;
+ const randomNum = Math.round(Math.random() * 10);
+ const randomMovie = movies[randomNum].title;
+ const explanation = movies[randomNum].explanation;
+ const hint = movies[randomNum].hint;
 
  quote.innerHTML = explanation;
 
